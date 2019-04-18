@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ciné'Folie - Inscription</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="CSS_Accueil.css"/>
+    </head>
+    <body>
+        
+        
+            
+            <header>
+                <div id="titre_principale">
+                    <div id="logo">
+                        <img src="logo.png" alt="Logo du cinéma" title="Logo Cinéma"/>
+                        <h1>Ciné'Folie</h1>  
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Films</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Inscription/Connexion
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Connexion</a>
+                            <a class="dropdown-item" href="#">Inscription</a>
+                          </div>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+                      </form>
+                    </div>
+                </nav>
+                
+            </header>
+            
+            <main>
+                
+                <div class="Formulaire">
+                    <form method="post" action="traitement.php">
+
+                        <fieldset>
+                            <legend>Civilité</legend>
+                            <label class="LabChamp" for="Civilité">Civilité</label>
+                            <input class="inline" type="radio" name="Civilité" id="monsieur" >
+                            <label for="monsieur">Monsieur</label>
+                            <input class="inline" type="radio" name="Civilité" id="madame" >
+                            <label for="madame">Madame</label>
+                            <input class="inline" type="radio" name="Civilité" id="NonGenre">
+                            <label for="NonGenre">Non Genré</label>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>Informations générales</legend>
+                            <label class="LabChamp" for="nom">Votre Nom</label> : <input type="text" name="Nom" id="nom" placeholder="Votre Nom ici" pattern="^[a-zA-Z]+$" required autofocus><br/>
+                            <label class="LabChamp" for="prénom">Votre Prénom</label> : <input type="text" name="Prénom" id="prénom" placeholder="Votre Prénom ici" pattern="^[a-zA-Z]+$" required><br/>
+                            <label class="LabChamp" for="dateNai">Date de Naissance</label> : <input type="date" name="DateNaissance" id="dateNai" required><br/>
+                            <label class="LabChamp" for="Téléphone">Téléphone</label> : <input type="tel" name="NumTel" id="Téléphone" placeholder="0123456789" pattern="[0]{1}[1-9]{1}[0-9]{8}" required><br/>
+                            <label class="LabChamp" for="Adresse">Adresse</label> : <input type="text" name="AdresseClient" id="Adresse" required>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>Informations de connexion</legend>
+                            <label class="LabChamp" for="identifiant">Adresse Mail</label> : <input type="email" name="IdentifiantCli" id="identifiant" required><br/> 
+                            <label class="LabChamp" for="VerificationId">Vérification de l'Adresse Mail</label> : <input type="email" name="VerifId" id="VerificationId" required><br/> 
+                            <label class="LabChamp" for="password">Mot de passe</label> : <input type="password" name="Password" id="password" required><br/>
+                            <label class="LabChamp" for="VerifMdp">Vérification du mot de passe</label> : <input type="password" name="VerifPassword" id="VerifMdp" required>
+                        </fieldset>
+                        
+                        <input class="bouton" type="submit" value="Envoyer" >
+                        <input class="bouton" type="reset" value="Reset" >
+
+                    </form>
+                </div>
+                
+            </main>
+            
+            <footer>
+
+                <div id="ReseauSociaux">
+                    <h1>Réseaux Sociaux</h1>
+                    <div id="logoResSoc">
+                        <div><a href="#"><img src="Instagram_icon.png" alt="Instagram" title="Instagram"/></a></div>
+                        <div><a href="#"><img src="logo_fb.png" alt="Facebook" title="Facebook"/></a></div>
+                        <div><a href="#"><img src="twitt.png" alt="Twitter" title="Twitter"/></a></div>
+                    </div>
+                </div>
+                
+                <div id="Auteur">
+                    <h1>Auteur</h1>
+                    <p>Ce site a été créé par Henri Leponte</p>
+                    <p>Téléphone: 0625154875</p>
+                    <a href="mailto:raphael.frantzen@maformationenligne.bzh">Contact</a>
+                </div>
+                
+                <div id="PlanSite">
+                    <h1>Ciné'Folie</h1>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Films</a></li>
+                        <li><a href="Inscription.html">Inscription</a></li>
+                        <li><a href="Connexion.html">Connexion</a></li>
+                    </ul>
+                    
+                </div>
+            </footer>
+            
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

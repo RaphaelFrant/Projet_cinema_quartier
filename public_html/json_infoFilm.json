@@ -1,0 +1,94 @@
+
+    {
+        "name": "Liste Film",
+        "film": [
+            {
+                "Title": "Red Cliff",
+                "Year": "2008",
+                "Runtime": "148 min",
+                "Genre": "Action, Adventure, Drama, History, War",
+                "Director": "John Woo",
+                "Actors": "Tony Chiu-Wai Leung, Takeshi Kaneshiro, Fengyi Zhang, Chen Chang",
+                "Plot": "The first chapter of a two-part story centered on a battle fought in China's Three Kingdoms period (220-280 A.D.).",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTcyOTQ3NDA1OV5BMl5BanBnXkFtZTcwMDY3NzM4Mg@@._V1_SX300.jpg",
+                "Website": "http://redclifffilm.com/"
+            },
+            {
+                "Title": "Dragon Blade",
+                "Year": "2015",
+                "Runtime": "127 min",
+                "Genre": "Action, Adventure, Drama, Fantasy, History",
+                "Director": "Daniel Lee",
+                "Actors": "Jackie Chan, John Cusack, Adrien Brody, Si Won Choi",
+                "Plot": "When corrupt Roman leader Tiberius arrives with a giant army to claim the Silk Road, Huo An teams up his army with an elite Legion of defected Roman soldiers led by General Lucius to protect his country and his new friends.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTk0MjgxOTQ5MF5BMl5BanBnXkFtZTgwODA3NTUwNjE@._V1_SX300.jpg",
+                "Website": "N/A"
+            },
+            {
+                "Title": "No Country for Old Men",
+                "Year": "2007",
+                "Runtime": "122 min",
+                "Genre": "Crime, Drama, Thriller",
+                "Director": "Ethan Coen, Joel Coen",
+                "Actors": "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
+                "Plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg",
+                "Website": "http://www.nocountryforoldmen-themovie.com"
+            },
+            {
+                "Title": "Blade Runner",
+                "Year": "1982",
+                "Runtime": "117 min",
+                "Genre": "Sci-Fi, Thriller",
+                "Director": "Ridley Scott",
+                "Actors": "Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos",
+                "Plot": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+                "Website": "https://www.warnerbros.com/blade-runner"
+            },
+            {
+                "Title": "Mississippi Burning",
+                "Year": "1988",
+                "Runtime": "128 min",
+                "Genre": "Crime, Drama, History, Mystery, Thriller",
+                "Director": "Alan Parker",
+                "Actors": "Gene Hackman, Willem Dafoe, Frances McDormand, Brad Dourif",
+                "Plot": "Two F.B.I. Agents, with wildly different styles, arrive in Mississippi to investigate the disappearance of some civil rights activists.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTM3MzA2MjQwNl5BMl5BanBnXkFtZTcwNjkzNzA2NA@@._V1_SX300.jpg",
+                "Website": "N/A"
+            },
+            {
+                "Title": "Zulu",
+                "Year": "2013",
+                "Runtime": "110 min",
+                "Genre": "Crime, Drama, Thriller",
+                "Director": "Jérôme Salle",
+                "Actors": "Orlando Bloom, Forest Whitaker, Conrad Kemp, Inge Beckmann",
+                "Plot": "Policemen Ali Sokhela and Brian Epkeen investigate the brutal murder of a young white woman, apparently provoked by the availability of a new illegal drug and somehow connected to the disappearance of black street children.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMjA0NjE1OTI0M15BMl5BanBnXkFtZTgwMDkyNTM3MDE@._V1_SX300.jpg",
+                "Website": "N/A"
+            },
+            {
+                "Title": "Idiocracy",
+                "Year": "2006",
+                "Runtime": "84 min",
+                "Genre": "Adventure, Comedy, Sci-Fi, Thriller",
+                "Director": "Mike Judge",
+                "Actors": "Luke Wilson, Maya Rudolph, Dax Shepard, Terry Crews",
+                "Plot": "Private Joe Bauers, the definition of \"average American\", is selected by the Pentagon to be the guinea pig for a top-secret hibernation program. Forgotten, he awakes five centuries in the future. He discovers a society so incredibly dumbed down that he's easily the most intelligent person alive.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMWQ4MzI2ZDQtYjk3MS00ODdjLTkwN2QtOTBjYzIwM2RmNzgyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "Website": "N/A"
+            },
+            {
+                "Title": "Innerspace",
+                "Year": "1987",
+                "Runtime": "120 min",
+                "Genre": "Action, Adventure, Comedy, Fantasy, Sci-Fi, Thriller",
+                "Director": "Joe Dante",
+                "Actors": "Dennis Quaid, Martin Short, Meg Ryan, Kevin McCarthy",
+                "Plot": "A hapless store clerk must foil criminals to save the life of the man who, miniaturized in a secret experiment, was accidentally injected into him.",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNDk1NzNiMGQtNGQ4Yy00NmMzLTkyNWQtZjM4MDU2Y2Q2NDVlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "Website": "N/A"
+            }
+        ]
+    }

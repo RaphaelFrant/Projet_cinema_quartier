@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ciné'Folie - Connexion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="CSS_Accueil.css"/>
+    </head>
+    <body>
+        
+        
+            
+            <header>
+                <div id="titre_principale">
+                    <div id="logo">
+                        <img src="logo.png" alt="Logo du cinéma" title="Logo Cinéma"/>
+                        <h1>Ciné'Folie</h1>  
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Films</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Inscription/Connexion
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Connexion</a>
+                            <a class="dropdown-item" href="#">Inscription</a>
+                          </div>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+                      </form>
+                    </div>
+                </nav>
+                
+            </header>
+            
+            <main>
+                
+                <div class="Formulaire">
+                    <form method="post" action="traitementConnex.php">
+
+                        
+                        <fieldset>
+                            <legend>Connexion au compte</legend>
+                            <label class="LabChamp" for="IdConnex">Identifiant</label> : <input type="email" name="IdentifiantConnx" id="IdConnex" required autofocus><br/>
+                            <label class="LabChamp" for="MdpConnex">Mot de passe</label> : <input type="password" name="PasswordConnex" id="MdpConnex" required>
+                        </fieldset>
+                        
+                        <input class="bouton" type="submit" value="Envoyer">
+                        <input class="bouton" type="reset" value="Reset">
+
+                    </form>
+                </div>
+                
+            </main>
+            
+            <footer>
+
+                <div id="ReseauSociaux">
+                    <h1>Réseaux Sociaux</h1>
+                    <div id="logoResSoc">
+                        <div><a href="#"><img src="Instagram_icon.png" alt="Instagram" title="Instagram"/></a></div>
+                        <div><a href="#"><img src="logo_fb.png" alt="Facebook" title="Facebook"/></a></div>
+                        <div><a href="#"><img src="twitt.png" alt="Twitter" title="Twitter"/></a></div>
+                    </div>
+                </div>
+                
+                <div id="Auteur">
+                    <h1>Auteur</h1>
+                    <p>Ce site a été créé par Henri Leponte</p>
+                    <p>Téléphone: 0625154875</p>
+                    <a href="mailto:raphael.frantzen@maformationenligne.bzh">Contact</a>
+                </div>
+                
+                <div id="PlanSite">
+                    <h1>Ciné'Folie</h1>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Films</a></li>
+                        <li><a href="Inscription.html">Inscription</a></li>
+                        <li><a href="Connexion.html">Connexion</a></li>
+                    </ul>
+                    
+                </div>
+            </footer>
+            
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
